@@ -1,6 +1,8 @@
 import os
 import shutil
 
+# Sort Files
+
 def organize_files(directory):
     for root, dirs, files in os.walk(directory):
         for file in files:
